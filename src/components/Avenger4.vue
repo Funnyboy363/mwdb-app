@@ -83,10 +83,9 @@ h4 {
   padding-right: 15px;
   padding-left: 15px;
   font-size: 14px;
-  background-color: rgb(90, 28, 24);
+ background-color: #030003;
   color: white;
   border-radius: 5px 0 0 5px;
-  border: 1px solid rgb(68, 68, 68);
 }
 
 .gun-layout img {

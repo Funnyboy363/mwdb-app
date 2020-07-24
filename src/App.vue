@@ -2,9 +2,8 @@
 <div>
   <div id="app">
 
-    <h1>Modern Warfare <br>Database<br></h1>
-    
-       <k-tabs class="tabs">
+    <h1><span class="db">Modern Warfare Database</span></h1>
+           <k-tabs class="tabs">
          <p class="bottom"></p>
         <k-tab name="Assault Rifles" :selected="true"><Avengers /></k-tab>
         <k-tab name="SMGS"><Avengers2 /></k-tab>
@@ -46,15 +45,23 @@ export default {
 
 h1 {
   width: 100%;
-  background-image: url('https://images.hdqwalls.com/wallpapers/call-of-duty-modern-warfare-2019-4k-cb.jpg');
+  background-image: url('https://images.hdqwalls.com/wallpapers/call-of-duty-warzone-4k-uj.jpg');
   background-size: cover;
-  padding: 180px 0;
-  color: rgb(255, 255, 255);
+  background-position: center center;
+  padding: 200px 0;
+  color: rgb(43, 43, 43);
   font-weight: 700;
   font-size: 70px;
-  text-align: left;
+  text-align: center;
   padding-left: 160px;
   margin-bottom: 0;
+}
+
+span.db {
+  padding: 5px 10px;
+  background-color: white;
+  opacity: .6;
+  border-radius: 5px;
 }
 
 p.clickbuttons {
