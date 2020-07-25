@@ -74,6 +74,7 @@ h4 {
   display: flex;
   flex-direction: row;
   margin-bottom: 40px;
+  justify-content: center;
 }
 
 .gun-info {
@@ -83,7 +84,7 @@ h4 {
   padding-right: 15px;
   padding-left: 15px;
   font-size: 14px;
- background-color: #030003;
+ background-color: #612212;
   color: white;
   border-radius: 5px 0 0 5px;
 }

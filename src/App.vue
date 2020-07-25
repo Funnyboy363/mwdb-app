@@ -9,6 +9,10 @@
         <k-tab name="SMGS"><Avengers2 /></k-tab>
         <k-tab name="Shotguns"><Avengers3 /></k-tab>
         <k-tab name="LMGS"><Avengers4 /></k-tab>
+         <k-tab name="Marksman"><Avengers5 /></k-tab>
+          <k-tab name="Sniper"><Avengers6 /></k-tab>
+           <k-tab name="Handguns"><Avengers7 /></k-tab>
+            <k-tab name="Other"><Avengers8 /></k-tab>
      </k-tabs>
   <p class="bottom"></p>
   </div>
@@ -22,6 +26,10 @@ import Avengers from './components/Avenger.vue';
 import Avengers2 from './components/Avenger2.vue';
 import Avengers3 from './components/Avenger3.vue';
 import Avengers4 from './components/Avenger4.vue';
+import Avengers5 from './components/Avenger5.vue';
+import Avengers6 from './components/Avenger6.vue';
+import Avengers7 from './components/Avenger7.vue';
+import Avengers8 from './components/Avenger8.vue';
 export default {
   name: 'App',
   components: {
@@ -29,7 +37,11 @@ export default {
     Avengers,
     Avengers2,
     Avengers3,
-    Avengers4
+    Avengers4,
+    Avengers5,
+    Avengers6,
+    Avengers7,
+    Avengers8
   },
 };
 </script>
