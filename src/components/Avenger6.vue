@@ -55,6 +55,7 @@ h4 {
     text-align: left;
     margin-top: 30px;
     margin-bottom: 0;
+     text-decoration: underline;
 }
 
 .avenger {
@@ -75,7 +76,7 @@ h4 {
   width: 300px;
   padding-right: 15px;
   padding-left: 15px;
-  font-size: 14px;
+font-size: 12px;
  background-color: #2e6d50;
   color: white;
   border-radius: 5px 0 0 5px;
