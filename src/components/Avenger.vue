@@ -6,6 +6,9 @@
 <div class="gun-info">
      <h4> {{ avenger.name }}</h4>
       <p class="avenger">{{ avenger.info }} </p>
+      <p class="avenger-text">Magazine: {{ avenger.mag}} </p>
+      <p class="avenger-text">Reload Time: {{ avenger.reload }} </p>
+      <p class="avenger-text">RPM: {{ avenger.reload }} </p>
 </div>
 
 
@@ -29,13 +32,22 @@ export default {
     avengers: [
       { name: 'Kilo 141',
         info: 'Fully automatic assault rifle with an ergonomic design that improves handling, and a steady fire rate helps stay on target.',
+        mag: '30',
+        reload: '1.34s',
+        rpm: '750',
         image: 'https://oyster.ignimgs.com/mediawiki/apis.ign.com/call-of-duty-modern-warfare/3/31/Call_of_Duty%C2%AE_Modern_Warfare%C2%AE_20191024220924.jpg?width=640'
       },
       { name: 'FAL', 
         info: 'Semi-automatic battle rifle with a high rate of fire for faster follow up shots',
+        mag: '20',
+        reload: '1.94s',
+        rpm: '470',
         image: 'https://oyster.ignimgs.com/mediawiki/apis.ign.com/call-of-duty-modern-warfare/3/32/Call_of_Duty%C2%AE_Modern_Warfare%C2%AE_20191024220935.jpg?width=640'
       },
       { name: 'M4A1',
+      mag: '30',
+        reload: '1.39',
+        rpm: '800',
         info: 'Fully automatic, all-purpose battle rifle. Control your shots and this weapon can be very effective at range',
         image: 'https://oyster.ignimgs.com/mediawiki/apis.ign.com/call-of-duty-modern-warfare/7/74/Call_of_Duty%C2%AE_Modern_Warfare%C2%AE_20191024220940.jpg?width=640'
       },
@@ -79,39 +91,9 @@ li {
     list-style-type: none;
 }
 
-h4 {
-    text-align: left;
-    margin-top: 30px;
-    margin-bottom: 0;
-    text-decoration: underline;
-}
-
-.avenger {
-    text-align: left;
-    margin: 0;
-}
-
-.gun-layout {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 40px;
-  justify-content: center;
-}
-
 .gun-info {
-  display: flex;
-  flex-direction: column;
-  width: 300px;
-  padding-right: 15px;
-  padding-left: 15px;
-  font-size: 12px;
-  background-color: #004f8f;
-  color: white;
-  border-radius: 5px 0 0 5px;
+   background-color: #004f8f;
 }
 
-.gun-layout img {
-  border-radius: 0 5px 5px 0;
-}
 
 </style>

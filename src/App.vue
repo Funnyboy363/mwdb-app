@@ -59,7 +59,8 @@ h1 {
   width: 100%;
   background-image: url('https://images.hdqwalls.com/wallpapers/call-of-duty-warzone-4k-uj.jpg');
   background-size: cover;
-  background-position: center center;
+  background-position: bottom center;
+  background-attachment: fixed;
   padding: 200px 0;
   color: rgb(43, 43, 43);
   font-weight: 700;
@@ -100,14 +101,59 @@ ul.tabs {
   top: 0;
   background-color: rgb(58, 58, 58);
   padding: 10px 0;
+  overflow: auto;
+  white-space: nowrap;
 }
 
 ul.tabs li a span {
   color: white;
+  display: inline-block;
 }
 
 ul.tabs li.is-active a span {
   color: rgb(146, 146, 146);
 }
+
+
+h4 {
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 0;
+    text-decoration: underline;
+}
+
+.avenger {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.avenger-text {
+    text-align: left;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.gun-layout {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+  justify-content: center;
+}
+
+.gun-info {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 14px;
+  color: white;
+  border-radius: 5px 0 0 5px;
+}
+
+.gun-layout img {
+  border-radius: 0 5px 5px 0;
+}
+
 
 </style>

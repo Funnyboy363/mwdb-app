@@ -67,39 +67,8 @@ li {
     list-style-type: none;
 }
 
-h4 {
-    text-align: left;
-    margin-top: 30px;
-    margin-bottom: 0;
-     text-decoration: underline;
-}
-
-.avenger {
-    text-align: left;
-    margin: 0;
-}
-
-.gun-layout {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 40px;
-  justify-content: center;
-}
-
 .gun-info {
-  display: flex;
-  flex-direction: column;
-  width: 300px;
-  padding-right: 15px;
-  padding-left: 15px;
- font-size: 12px;
   background-color: #254b1d;
-  color: white;
-  border-radius: 5px 0 0 5px;
-}
-
-.gun-layout img {
-  border-radius: 0 5px 5px 0;
 }
 
 </style>
