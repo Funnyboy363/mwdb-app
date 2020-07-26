@@ -36,11 +36,39 @@
 }
 
 
-
-
 }
 
 
-body {
-  color: black;
+
+@media only screen 
+  and (min-width: 580px) 
+  and (max-width: 1024px)
+  {
+    .gun-layout img {
+      width: 100%;
+    }
+
+    .gun-info, .avenger-text {
+      font-size: 11px;
+    }
+
+  }
+
+
+  @media screen 
+  and (min-width: 640px) 
+  and (max-width: 740px) 
+  and (orientation: landscape) { 
+.gun-info {
+ font-size: 9px;
 }
+
+.avenger-text {
+  margin: 0;
+}
+
+h4 {
+  font-size: 14px;
+  margin-top: 10px;
+}
+   }

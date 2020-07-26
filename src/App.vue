@@ -145,7 +145,7 @@ h4 {
 .gun-info {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 500px;
   padding-right: 15px;
   padding-left: 15px;
   font-size: 14px;

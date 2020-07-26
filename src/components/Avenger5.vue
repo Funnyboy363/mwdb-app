@@ -40,7 +40,7 @@ export default {
         image: 'https://oyster.ignimgs.com/mediawiki/apis.ign.com/call-of-duty-modern-warfare/8/8c/Call_of_Duty%C2%AE_Modern_Warfare%C2%AE_20191024221302.jpg?width=640'
       },
       { name: 'Crossbow',
-        info: 'Silent and agile, this high-performance crossbow fires 20.0" bolts with exceptional lethality. Exclusive customization, distinct functionality, and unique ammunition types put this weapon in a class of its own. Standard 20.0" bolts are recoverable, and are undetectable by trophy systems',
+        info: 'Silent and agile, this high-performance crossbow fires 20.0" bolts with exceptional lethality',
         image: 'https://oyster.ignimgs.com/mediawiki/apis.ign.com/call-of-duty-modern-warfare/7/72/Call_of_Duty%C2%AE_Modern_Warfare%C2%AE_20200323165909.jpg?width=640'
       },
     ]
