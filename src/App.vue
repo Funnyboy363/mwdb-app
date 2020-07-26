@@ -82,6 +82,7 @@ span.db {
   background-color: white;
   opacity: .6;
   border-radius: 5px;
+  clear: both;
 }
 
 p.clickbuttons {
