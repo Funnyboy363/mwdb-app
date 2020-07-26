@@ -105,13 +105,13 @@ iframe {
 
 
 ul.tabs {
-   /* position: -webkit-sticky;
+   position: -webkit-sticky;
    position: -webkit-sticky;
   position: -moz-sticky;
   position: -ms-sticky;
   position: -o-sticky;
   position: sticky;
-  top: 0; */
+  top: 0;
   background-color: rgb(58, 58, 58);
   padding: 10px 0;
   overflow: auto;
@@ -160,6 +160,7 @@ h4 {
   display: flex;
   flex-direction: column-reverse;
   margin-bottom: 40px;
+
 }
 
 .gun-info {
@@ -168,7 +169,7 @@ h4 {
   /* width: 800px; */
   padding-right: 15px;
   padding-left: 15px;
-  font-size: 14px;
+  font-size: 15px;
   color: white;
   padding-bottom: 15px;
   border-radius: 0 0 5px 5px;
@@ -177,8 +178,8 @@ h4 {
 
 .gun-layout img {
   width: 100%;
-  height: 100%;
   border-radius: 5px 5px 0 0;
+  padding: 0;
 }
 
 
