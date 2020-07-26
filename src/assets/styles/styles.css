@@ -15,6 +15,10 @@
         padding: 50px 0;
     }
 
+    body {
+      background-color: #333333;
+    }
+
 
     h4 {
       margin-top: 5px;
@@ -27,13 +31,9 @@
 
 .gun-info {
   width: 100%;
-  border-radius: 0;
   padding: 15px;
 }
 
-.gun-layout img {
-  border-radius: 0;
-}
 
 
 }
@@ -73,6 +73,12 @@ margin-top: 10px;
 
     .gun-info, .avenger-text {
       font-size: 11px;
+    }
+
+
+    body {
+      background-image: url('https://cdn.shopify.com/s/files/1/0169/2814/5472/products/26518_500x500.jpg?v=1569314671');
+      background-size: cover;
     }
 
   }

@@ -48,6 +48,11 @@ export default {
 <style>
 @import './assets/styles/styles.css';
 
+
+body {
+  background-color: #D0D2D1;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -97,6 +102,8 @@ iframe {
   height: 500px;
 }
 
+
+
 ul.tabs {
    position: -webkit-sticky; /* Safari */
   position: sticky;
@@ -116,6 +123,16 @@ ul.tabs li.is-active a span {
   color: rgb(146, 146, 146);
 }
 
+.full-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+.container {
+  width: 350px;
+}
 
 h4 {
     text-align: left;
@@ -137,26 +154,27 @@ h4 {
 
 .gun-layout {
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
   margin-bottom: 40px;
-  justify-content: center;
 }
 
 .gun-info {
   display: flex;
   flex-direction: column;
-  width: 500px;
+  /* width: 800px; */
   padding-right: 15px;
   padding-left: 15px;
   font-size: 14px;
   color: white;
-  border-radius: 5px 0 0 5px;
+  padding-bottom: 15px;
+  border-radius: 0 0 5px 5px;
+ 
 }
 
 .gun-layout img {
-  border-radius: 0 5px 5px 0;
   width: 100%;
   height: 100%;
+  border-radius: 5px 5px 0 0;
 }
 
 

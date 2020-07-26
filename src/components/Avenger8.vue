@@ -1,7 +1,7 @@
 <template>
 <!-- This is the information for the Other -->
-    <div>
-      <div class="container" v-for="avenger in avengers" v-bind:key="avenger">
+    <div class="full-container">
+      <div class="container d-flex" v-for="avenger in avengers" v-bind:key="avenger">
         <div class="gun-layout">
 <div class="gun-info">
      <h4> {{ avenger.name }}</h4>
