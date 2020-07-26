@@ -107,6 +107,10 @@ iframe {
 
 ul.tabs {
    position: -webkit-sticky; /* Safari */
+   position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
   position: sticky;
   top: 0;
   background-color: rgb(58, 58, 58);

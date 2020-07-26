@@ -27,6 +27,7 @@
 .gun-layout {
   flex-direction: column-reverse;
   border-radius: none;
+  margin: 10px 0;
 }
 
 .gun-info {
@@ -35,7 +36,6 @@
 }
 
 .tabs {
-  margin-top: 40px;
   clear: both;
 }
 
