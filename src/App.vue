@@ -4,6 +4,7 @@
 
     <h1><span class="db">Modern Warfare Database</span></h1>
            <k-tabs class="tabs">
+              <p class="push"></p>
         <k-tab name="Assault Rifles" :selected="true"><Avengers /></k-tab>
         <k-tab name="SMGS"><Avengers2 /></k-tab>
         <k-tab name="Shotguns"><Avengers3 /></k-tab>
@@ -93,9 +94,7 @@ color: white;
 }
 
    
-.bottom {
-padding: 20px 0;
-}
+
 
 
 iframe {
