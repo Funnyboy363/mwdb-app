@@ -1,0 +1,46 @@
+/* Portrait and Landscape */
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 580px)
+  {
+    h1 {
+        font-size: 60px;
+        text-align: center;
+        margin: 0;
+        padding-left: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center;
+        padding: 50px 0;
+    }
+
+
+    h4 {
+      margin-top: 5px;
+    }
+
+.gun-layout {
+  flex-direction: column-reverse;
+  border-radius: none;
+}
+
+.gun-info {
+  width: 100%;
+  border-radius: 0;
+  padding: 15px;
+}
+
+.gun-layout img {
+  border-radius: 0;
+}
+
+
+
+
+}
+
+
+body {
+  color: black;
+}

@@ -4,7 +4,6 @@
 
     <h1><span class="db">Modern Warfare Database</span></h1>
            <k-tabs class="tabs">
-         <p class="bottom"></p>
         <k-tab name="Assault Rifles" :selected="true"><Avengers /></k-tab>
         <k-tab name="SMGS"><Avengers2 /></k-tab>
         <k-tab name="Shotguns"><Avengers3 /></k-tab>
@@ -14,9 +13,7 @@
            <k-tab name="Handguns"><Avengers7 /></k-tab>
             <k-tab name="Other"><Avengers8 /></k-tab>
      </k-tabs>
-  <p class="bottom"></p>
   </div>
-  <p class="bottom"></p>
 </div>
 </template>
 
@@ -46,7 +43,11 @@ export default {
 };
 </script>
 
+
+
 <style>
+@import './assets/styles/styles.css';
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -55,7 +56,9 @@ export default {
   color: #2c3e50;
 }
 
+
 h1 {
+ 
   width: 100%;
   background-image: url('https://images.hdqwalls.com/wallpapers/call-of-duty-warzone-4k-uj.jpg');
   background-size: cover;
@@ -66,7 +69,6 @@ h1 {
   font-weight: 700;
   font-size: 70px;
   text-align: center;
-  padding-left: 160px;
   margin-bottom: 0;
 }
 
@@ -153,6 +155,8 @@ h4 {
 
 .gun-layout img {
   border-radius: 0 5px 5px 0;
+  width: 100%;
+  height: 100%;
 }
 
 
