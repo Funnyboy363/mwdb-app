@@ -1,7 +1,6 @@
 <template>
 <div>
   <div id="app">
-
     <h1><span class="db">Modern Warfare Database</span></h1>
            <k-tabs class="tabs">
               <p class="push"></p>
@@ -13,6 +12,7 @@
           <k-tab name="Sniper"><Avengers6 /></k-tab>
            <k-tab name="Handguns"><Avengers7 /></k-tab>
             <k-tab name="Other"><Avengers8 /></k-tab>
+            
      </k-tabs>
   </div>
 </div>
@@ -55,11 +55,13 @@ body {
 }
 
 #app {
+  
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  
 }
 
 
@@ -127,16 +129,26 @@ ul.tabs li.is-active a span {
   color: rgb(146, 146, 146);
 }
 
+
+
+
 .full-container {
+  margin: 2px auto !important;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-}
+  align-content: flex-start;
+  align-items: initial;
+  justify-content: center;
+  }
 
 
 .container {
   width: 350px;
+  margin: 0;
 }
+
+
 
 h4 {
     text-align: left;
@@ -180,6 +192,7 @@ h4 {
   width: 100%;
   border-radius: 5px 5px 0 0;
   padding: 0;
+  flex: auto;
 }
 
 
