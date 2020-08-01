@@ -1,41 +1,49 @@
 <template>
 <div>
-  <div id="app">
-    <h1><span class="db">Modern Warfare Database</span></h1>
-<nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">
-    <img src="https://dl1.cbsistatic.com/i/2019/10/30/6c17c6d2-8d68-4330-b2e0-b7bb02ecc17d/692c4f26e2fd192cd38981d18d649897/imgingest-6236295178101360477.png" width="50" height="50" alt="" loading="lazy" />
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-     <li class="nav-item text-white"><router-link to="/" class="nav-link">Weapons</router-link></li>
-<li class="nav-item text-white"><router-link to="/Lethal" class="nav-link">Lethal &amp; Tactical</router-link></li>
-<li class="nav-item text-white"><router-link to="/Perks" class="nav-link">Perks</router-link></li>
-    </ul>
+           <k-tabs class="tabs">
+              <p class="push"></p>
+        <k-tab name="Assault Rifles" :selected="true"><Avengers /></k-tab>
+        <k-tab name="SMGS"><Avengers2 /></k-tab>
+        <k-tab name="Shotguns"><Avengers3 /></k-tab>
+        <k-tab name="LMGS"><Avengers4 /></k-tab>
+         <k-tab name="Marksman"><Avengers5 /></k-tab>
+          <k-tab name="Sniper"><Avengers6 /></k-tab>
+           <k-tab name="Handguns"><Avengers7 /></k-tab>
+            <k-tab name="Other"><Avengers8 /></k-tab>
+            
+     </k-tabs>
   </div>
-</nav>
-<router-view></router-view>
-  </div>
-</div>
 </template>
 
-
-
 <script>
+import HelloWorld from './HelloWorld.vue';
+import Avengers from './Avenger.vue';
+import Avengers2 from './Avenger2.vue';
+import Avengers3 from './Avenger3.vue';
+import Avengers4 from './Avenger4.vue';
+import Avengers5 from './Avenger5.vue';
+import Avengers6 from './Avenger6.vue';
+import Avengers7 from './Avenger7.vue';
+import Avengers8 from './Avenger8.vue';
 export default {
-  name: 'App',
   components: {
-  }
+    HelloWorld,
+    Avengers,
+    Avengers2,
+    Avengers3,
+    Avengers4,
+    Avengers5,
+    Avengers6,
+    Avengers7,
+    Avengers8
+  },
 };
 </script>
 
 
 
 <style>
-@import './assets/styles/styles.css';
+
 
 
 body {
@@ -51,7 +59,6 @@ body {
   color: #2c3e50;
   
 }
-
 
 
 h1 {

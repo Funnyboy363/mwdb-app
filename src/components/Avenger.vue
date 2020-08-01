@@ -9,11 +9,13 @@
       <p class="avenger-text">Magazine: {{ avenger.mag}} </p>
       <p class="avenger-text">Reload Time: {{ avenger.reload }} </p>
       <p class="avenger-text">RPM: {{ avenger.rpm }} </p>
+      
 </div>
 
 
       <img :src="avenger.image" />
         </div>
+        
     </div>
       </div>
    

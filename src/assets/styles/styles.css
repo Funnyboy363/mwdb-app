@@ -1,7 +1,7 @@
 /* Portrait and Landscape */
 @media only screen 
   and (min-width: 280px) 
-  and (max-width: 580px)
+  and (max-width: 780px)
   {
     h1 {
         font-size: 50px;
@@ -44,6 +44,11 @@
 }
 
 
+.nav-item a{
+  font-size: 18px;
+ }
+
+
 }
 
 
@@ -64,6 +69,12 @@ h4 {
 font-size: 14px;
 margin-top: 10px;
 }
+
+
+
+.nav-item a{
+  font-size: 18px;
+ }
  }
 
 
@@ -83,6 +94,8 @@ margin-top: 10px;
       font-size: 11px;
     }
 
+  
+
 
     body {
       background-image: url('https://cdn.shopify.com/s/files/1/0169/2814/5472/products/26518_500x500.jpg?v=1569314671');
@@ -92,3 +105,21 @@ margin-top: 10px;
   }
 
 
+
+
+
+  .nav-item, .nav-link {
+    color: rgb(226, 226, 226);
+  }
+
+
+  .nav-item a{
+    font-size: 20px;
+   }
+
+
+   .nav-item a:hover {
+     text-decoration: none;
+     color: rgb(80, 80, 80);
+     transition: .5s;
+   }

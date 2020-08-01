@@ -1,1 +1,7 @@
-<template><img src='https://wallpapersite.com/images/wallpapers/avengers-endgame-4000x2000-final-battle-4k-17992.jpg'/><template>
+<template>
+<ul class="nav nav-pills">
+<li role="presentation"><router-link to="/">Weapons</router-link></li>
+<li role="presentation"><router-link to="/Lethal">Lethal &amp; Tactical</router-link></li>
+<li role="presentation"><router-link to="/Perks">Perks</router-link></li>
+    </ul>
+<template>
