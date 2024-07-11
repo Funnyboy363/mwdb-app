@@ -4,7 +4,7 @@
     <h1><span class="db">Modern Warfare Database</span></h1>
 <nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="#">
-    <img src="https://dl1.cbsistatic.com/i/2019/10/30/6c17c6d2-8d68-4330-b2e0-b7bb02ecc17d/692c4f26e2fd192cd38981d18d649897/imgingest-6236295178101360477.png" width="50" height="50" alt="" loading="lazy" />
+    <img src="https://pbs.twimg.com/profile_images/1624186818773258241/IDCz0cge_400x400.jpg" width="50" height="50" alt="" loading="lazy" />
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
